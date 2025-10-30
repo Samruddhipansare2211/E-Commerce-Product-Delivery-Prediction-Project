@@ -66,3 +66,42 @@ The **Decision Tree** model achieved the best performance with an accuracy of **
 
 ---
 
+Navigate to the folder:
+
+cd ecommerce-delivery-prediction
+
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+
+Run the Jupyter notebook:
+
+jupyter notebook Ecommerce_Delivery_Prediction.ipynb
+
+📈 Conclusion
+
+Goal: Predict delivery timeliness and analyze influencing factors.
+
+Best Model: Decision Tree Classifier (69% Accuracy).
+
+Key Findings: Product weight, cost, discount percentage, and customer interaction strongly affect delivery time.
+
+Insight: Improving logistics around mid-weight, low-cost items and optimizing shipment routes could enhance on-time delivery rates.
+
+🔮 Future Scope
+
+Incorporate real-time tracking data for more accurate predictions.
+
+Implement deep learning or XGBoost models for performance improvement.
+
+Use Power BI / Tableau dashboards for interactive visualization and decision-making.
+
+👩‍💻 Author
+
+Samruddhi Pansare
+LinkedIn
+ • GitHub
+
+📧 Email: pansaresamruddhi11@gmail.com
