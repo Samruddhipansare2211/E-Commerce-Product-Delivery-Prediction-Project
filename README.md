@@ -38,12 +38,12 @@ The dataset contains **10,999 observations** and **12 variables** related to shi
 ---
 
 ## 🔍 Exploratory Data Analysis (EDA) Insights
-- **Product Weight & Cost**: Products weighing **2500–3500 g** and costing **under $250** are more likely to be delivered on time.  
-- **Warehouse F & Shipment Mode**: Most deliveries originate from **Warehouse F**, usually via **ship**, suggesting a coastal location advantage.  
-- **Customer Behavior**:
+- **Product Weight & Cost:** Products weighing **2500–3500 g** and costing **under $250** are more likely to be delivered on time.  
+- **Warehouse F & Shipment Mode:** Most deliveries originate from **Warehouse F**, usually via **ship**, suggesting a coastal location advantage.  
+- **Customer Behavior:**
   - More customer care calls → higher probability of **late deliveries**.  
   - Loyal customers (with more prior purchases) have a **higher on-time delivery rate**.  
-- **Discount Impact**: Deliveries with **>10% discount** tend to be **on time**, whereas **0–10% discounts** correlate with delays.
+- **Discount Impact:** Deliveries with **>10% discount** tend to be **on time**, whereas **0–10% discounts** correlate with delays.
 
 ---
 
@@ -60,48 +60,53 @@ The **Decision Tree** model achieved the best performance with an accuracy of **
 ---
 
 ## 🧩 Technologies Used
-- **Python 3.10+**
-- **Libraries**: pandas, numpy, matplotlib, seaborn, scikit-learn
-- **Jupyter Notebook** for data exploration and modeling
+- **Programming Language:** Python 3.10+  
+- **Libraries:** pandas, numpy, matplotlib, seaborn, scikit-learn  
+- **Environment:** Jupyter Notebook  
 
 ---
 
-Navigate to the folder:
+## ⚙️ How to Run the Project
 
+Clone the repository:
+```bash
+git clone https://github.com/yourusername/ecommerce-delivery-prediction.git
+```
+
+Navigate to the project folder:
+```bash
 cd ecommerce-delivery-prediction
+```
 
-
-Install dependencies:
-
+Install required dependencies:
+```bash
 pip install -r requirements.txt
+```
 
-
-Run the Jupyter notebook:
-
+Run the Jupyter Notebook:
+```bash
 jupyter notebook Ecommerce_Delivery_Prediction.ipynb
+```
 
-📈 Conclusion
+---
 
-Goal: Predict delivery timeliness and analyze influencing factors.
+## 📈 Conclusion
+- **Goal:** Predict delivery timeliness and analyze influencing factors.  
+- **Best Model:** Decision Tree Classifier (69% Accuracy).  
+- **Key Findings:** Product weight, cost, discount percentage, and customer interactions strongly affect delivery time.  
+- **Insight:** Improving logistics for **mid-weight, low-cost items** and optimizing shipment routes can enhance on-time delivery rates.
 
-Best Model: Decision Tree Classifier (69% Accuracy).
+---
 
-Key Findings: Product weight, cost, discount percentage, and customer interaction strongly affect delivery time.
+## 🔮 Future Scope
+- Incorporate **real-time tracking data** for improved accuracy.  
+- Implement **XGBoost or Deep Learning models** to enhance predictive performance.  
+- Develop **Power BI / Tableau dashboards** for interactive analytics and visualization.  
 
-Insight: Improving logistics around mid-weight, low-cost items and optimizing shipment routes could enhance on-time delivery rates.
+---
 
-🔮 Future Scope
+## 👩‍💻 Author
 
-Incorporate real-time tracking data for more accurate predictions.
-
-Implement deep learning or XGBoost models for performance improvement.
-
-Use Power BI / Tableau dashboards for interactive visualization and decision-making.
-
-👩‍💻 Author
-
-Samruddhi Pansare
-LinkedIn
- • GitHub
-
-📧 Email: pansaresamruddhi11@gmail.com
+**Samruddhi Pansare**  
+[LinkedIn](https://www.linkedin.com/in/samruddhi-pansare-b34371328) • [GitHub](https://github.com/Samruddhipansare2211)  
+📧 **Email:** [pansaresamruddhi11@gmail.com](mailto:pansaresamruddhi11@gmail.com)
